@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="../assets/js/lang.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Window-Update-Prank😁@rikesh dahal</title>
+    <script>
+        window.onload = function () {
+            var str1 = "http"
+            var myString = location.search.split('?')[1].replace(/%20/g, ' ');
+            var str2 = myString.substring(0, 4);
+            $('body').css('background', "#" + myString);
+        }
+    </script>
+    <SCRIPT TYPE="text/javascript">
+        var message = "Sorry, right-click has been disabled";
+        function clickIE() { if (document.all) { (message); return false; } }
+        function clickNS(e) {
+            if
+                (document.layers || (document.getElementById && !document.all)) {
+                if (e.which == 2 || e.which == 3) { (message); return false; }
+            }
+        }
+        if (document.layers) { document.captureEvents(Event.MOUSEDOWN); document.onmousedown = clickNS; }
+        else { document.onmouseup = clickNS; document.oncontextmenu = clickIE; }
+        document.oncontextmenu = new Function("return false")
+    </SCRIPT>
+    <script>
+        $(function () {
+            $(document).keyup(function (e) {
+                switch (e.keyCode) {
+                    case 13: open('bsod.html', '_self'); break;
+                    case 8: open('bsod.html', '_self'); break;
+                }
+            });
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-45751574-5', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<!-- rikesh dahal -->
+<body>
+    <div style="display:block;position:absolute;min-width:100%; min-height:100%;margin:0;padding:0;">
+        <div class="centeragain">
+            <div class="CT">
+                <div class="FONT">
+                    <div class='loader' style="vertical-align:middle;padding-top:2px;">
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                    </div>
+                    <br><br>
+                    <a id="ref" data-translate="_win10workingonupdates">Working on updates </a> &nbsp;<a
+                        id="timer">0%</a> <span data-translate="_win7percent">complete.</span><br /><span
+                        data-translate="_win10donotturnoff">Don't turn off your PC. This will take a while.</span>
+                </div>
+                <div id="bottom" data-translate="_win10willrestart">Your PC will restart several times</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <video mute loop style="z-index:-1;opacity:0.1;width:1px;height:1px;position:fixed;left:1px;bottom:1px;">
+        <source src="../assets/pixel.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
